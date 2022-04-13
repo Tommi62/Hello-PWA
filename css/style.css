@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "ubunturegular";
+  src: url("./ubuntu-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "ubunturegular";
+  background-image: url("../images/wallp.jpg");
+}
+
+/* Make content area fill the entire browser window */
+html,
+.fullscreen {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Center the content in the browser window */
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.battery {
+  width: 50px;
+}
+
+.bicycle {
+  width: 50px;
+}
